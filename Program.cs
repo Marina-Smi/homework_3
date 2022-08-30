@@ -58,6 +58,6 @@ Console.WriteLine($"Длина отрезка  {segmentLength}");
         Console.WriteLine("Введите число N");
         int num = int.Parse(Console.ReadLine());
         for (int ind = 1; ind <= num; ind++)
-            Console.WriteLine("{0}^2 = {1}", ind, ind*ind);
+            Console.WriteLine("{0}^3 = {1}", ind, ind*ind*ind);
         Console.ReadKey(true);
     }
